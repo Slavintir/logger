@@ -1,5 +1,5 @@
-import colors from 'colors';
-import moment from 'moment';
+const colors = require('colors');
+const moment = require('moment');
 
 colors.setTheme({
     silly: 'rainbow',
@@ -78,4 +78,4 @@ class Logger {
     }
 }
 
-export default new Logger;
+module.exports = new Logger;

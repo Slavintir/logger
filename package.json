@@ -2,7 +2,7 @@
   "name": "logger",
   "version": "0.0.0",
   "description": "Simple NodeJs logger",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
